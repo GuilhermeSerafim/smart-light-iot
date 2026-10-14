@@ -1,0 +1,44 @@
+# Configurações privadas e cópias de execução com credenciais
+/local/
+.env
+.env.*
+!.env.example
+secrets.h
+secrets.*.h
+!secrets.example.h
+credentials.json
+*.key
+*.p12
+*.pfx
+
+# Materiais originais de consulta: preservados localmente, não integram a publicação
+/01_Smart_Light_Resumo.pdf
+/02_Smart_Light_Guia_do_Grupo.pdf
+/03_Smart_Light_Apresentacao (1).html
+
+# Saídas de compilação e diagnóstico (podem incorporar segredos)
+/build/
+/.pio/
+/tmp/
+*.bin
+*.elf
+*.hex
+*.map
+*.o
+*.a
+*.log
+*.pcap
+*.pcapng
+
+# Arquivos locais do editor e sistema
+/.vscode/
+/.idea/
+__pycache__/
+*.pyc
+*.swp
+*.swo
+*.bak
+*~
+.DS_Store
+Thumbs.db
+Desktop.ini
