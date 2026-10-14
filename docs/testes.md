@@ -93,7 +93,7 @@ As verificações abaixo foram executadas localmente com Python, Git e revisão 
 | Histórico Git local | Na inspeção inicial, não havia `.git` na pasta do projeto nem nos diretórios superiores. O versionamento local foi iniciado depois dessa inspeção, em commits separados por responsabilidade. Isso não constitui auditoria de históricos remotos ou de cópias fora da pasta. |
 | Compilação / simulação / integração real | Não executadas nesta revisão. Arduino CLI/IDE, PlatformIO e toolchain ESP32 não foram encontrados no PATH e nos locais usuais examinados; `cppcheck` também não estava disponível. O roteiro acima permanece a executar. |
 
-Esta preparação foi organizada em commits locais para permitir rastrear e revisar cada etapa. Nenhum push, repositório remoto ou publicação foi criado. A publicação depende da autorização explícita do responsável e da definição do destino. A licença ainda não foi escolhida; não há `LICENSE`.
+Esta preparação foi organizada em cinco commits iniciais para permitir rastrear e revisar cada etapa. Após autorização do responsável, esses commits foram publicados, sem squash, no repositório público [GuilhermeSerafim/smart-light-iot](https://github.com/GuilhermeSerafim/smart-light-iot). Um commit documental separado registra essa publicação. A publicação não representa nova compilação, simulação ou integração com as nuvens. A licença ainda não foi escolhida; não há `LICENSE`.
 
 ### Repetir a checagem de JSON
 

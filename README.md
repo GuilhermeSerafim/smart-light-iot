@@ -169,7 +169,7 @@ smart-light-iot/
     └── screenshots/
 ```
 
-`smart-light-iot` é o nome sugerido para o repositório. Os PDFs e o HTML originais permanecem como fontes locais de consulta, ignorados pelo Git. As capturas selecionadas foram extraídas desses materiais e revisadas; não são novas evidências de execução.
+O repositório do projeto é [GuilhermeSerafim/smart-light-iot](https://github.com/GuilhermeSerafim/smart-light-iot). Os PDFs e o HTML originais permanecem como fontes locais de consulta, ignorados pelo Git. As capturas selecionadas foram extraídas desses materiais e revisadas; não são novas evidências de execução.
 
 Para os cinco integrantes, uma divisão de estudo possível é: arquitetura; hardware; firmware; nuvens; testes e limitações. Todos devem conseguir explicar o percurso completo do comando e a diferença entre medição física e estado lógico.
 
@@ -212,7 +212,7 @@ git show --stat HEAD
 git log --oneline -- sketch.ino
 ```
 
-Os commits seguem essa ordem para manter suas referências locais disponíveis. A publicação no GitHub permanece uma etapa separada, sujeita à autorização do responsável.
+Os cinco commits iniciais seguem essa ordem para manter suas referências locais disponíveis e foram publicados sem squash. Um commit documental posterior registra a publicação autorizada no GitHub. Alterações seguintes devem continuar em commits separados por responsabilidade, com motivo e validação descritos.
 
 ## Licença
 
